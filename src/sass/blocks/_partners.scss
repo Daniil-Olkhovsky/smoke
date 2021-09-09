@@ -1,0 +1,10 @@
+.partners {
+    min-height: 360px;
+    padding: 72px 0 0 0;
+    background-color: #333333;
+    &__wrapper {
+        display: flex;
+        margin-top: 152px;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,49 @@
+.promo {
+    padding-top: 51px;
+    min-height: 800px;
+    background: url(../img/bg-1.jpg) center (center/cover) no-repeat;
+    &__header {
+        display: block;
+        width: 563px;
+        margin-top: 70px;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 78px;
+        color: #F2F2F2;
+    }
+    &__slogan {
+        margin-top: 24px;
+        width: 482px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 29px;
+        color: #fff;
+    }
+    &__checks {
+        margin-top: 136px;
+        ul {
+            position: relative;
+            display: flex;
+            list-style-type: none;
+            li {
+                position: relative;
+                margin-right: 50px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #F2F2F2;
+                span {
+                    color: #FFA800;
+                }
+                &::before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    left: -32px;
+                    width: 21px;
+                    height: 20px;
+                    background: url('../icons/check.png') center (center / cover) no-repeat;
+                }
+            }
+        }
+    }
+}
